@@ -11,5 +11,4 @@
 
 ### 安装(Ubuntu)
 ```bash
-./install.sh
-
+bash <(curl -s https://raw.githubusercontent.com/yaf0/ping2wechat/main/install.sh)
