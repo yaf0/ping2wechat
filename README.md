@@ -11,4 +11,6 @@
 
 ### 安装(Ubuntu)
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yaf0/ping2wechat/main/install.sh)
+# xxx替换为你的企业微信机器人Webhook的URL末尾key=之后那一串字符
+WeChatKey="xxxxxxxxxxxxxxxxxxx"
+bash <(curl -s https://raw.githubusercontent.com/yaf0/ping2wechat/main/install.sh) $WeChatKey
